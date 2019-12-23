@@ -1,0 +1,7 @@
+web:
+  image: nginx
+  volumes: 
+  - ./mysite.template: /etc/nginx/nignx.conf nginx
+  ports:
+  - "8080:80"
+  
